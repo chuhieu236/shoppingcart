@@ -1,0 +1,34 @@
+{"Products": [
+    {
+      "id": 1,
+      "name": "Iphone 6",
+      "src": "https://cdn.tgdd.vn/Products/Images/42/92962/iphone-6-32gb-gold-hh-600x600-600x600-600x600.jpg",
+      "description": "Sản xuất năm 2014",
+     "price": 1500000,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "name": "Iphone 7",
+      "src": "https://cdn.tgdd.vn/Products/Images/42/78124/iphone-7-plus-32gb-gold-600x600-600x600.jpg",
+     "description": "Sản xuất năm 2015",
+      "price": 2000000,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "name": "iphone 8",
+      "src": "https://cdn.tgdd.vn/Products/Images/42/114113/iphone-8-64gb-hh-600x600.jpg",
+      "description": "Sản xuất năm 2016",
+      "price": 3000000,
+      "quantity": 0
+    }
+  ],
+
+ "PromoCodes":  [
+    {
+      "id": 1,
+      "code": "hieu",
+      "discountpercent": 50
+    } 
+  ]}

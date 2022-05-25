@@ -1,0 +1,14 @@
+<app-header [numberItems]="numberItems"></app-header>
+<app-body
+  [products]="products"
+  (onRemove)="removeProduct($event)"
+  (onUpdateQuantity)="updateQuantity()"
+></app-body>
+<app-footer
+  [subTotal]="subTotal"
+  [tax]="tax"
+  [total]="total"
+  [promocodes]="promocodes"
+  (onPromoCode)="inputPromoCode($event)"
+  (onSubmit)="onSubmitCode()"
+></app-footer>

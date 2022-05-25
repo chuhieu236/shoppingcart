@@ -1,0 +1,31 @@
+<section class="container">
+  <div class="promotion">
+    <label for="promo-code">Have A Promo Code?</label>
+    <input
+      #promocode
+      type="text"
+      id="promo-code"
+      (input)="inputPromoCode(promocode)"
+    />
+    <button type="button" (click)="onSubmitCode()"></button>
+  </div>
+
+  <div class="summary">
+    <ul>
+      <li>
+        Subtotal
+        <span>{{ subTotal | currency: "VND":"symbol":"1.0-0":"vi" }}</span>
+      </li>
+      <li>
+        Tax <span>{{ tax | currency: "VND":"symbol":"1.0-0":"vi" }}</span>
+      </li>
+      <li class="total">
+        Total <span>{{ total | currency: "VND":"symbol":"1.0-0":"vi" }}</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="checkout">
+    <button type="button">Check Out</button>
+  </div>
+</section>
